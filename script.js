@@ -1,4 +1,5 @@
 function time_cal(typeofTIME,opi,value){
+    //hello there
     var d = new Date();
     var tempT = d.getTime()
     switch(typeofTIME){
@@ -11,7 +12,8 @@ function time_cal(typeofTIME,opi,value){
                     return date;
                 case('-'):
                     tempT-=value;
-                    var date = new Date(tempT);
+       
+			var date = new Date(tempT);
                     return date;
             }
         case('minutes'):
@@ -52,4 +54,6 @@ function time_cal(typeofTIME,opi,value){
             }
     }
 }
-console.log(time_cal('days','+',1))
+console.log(time_cal('days','+',1)
+
+
